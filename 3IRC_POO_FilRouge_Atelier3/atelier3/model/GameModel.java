@@ -4,6 +4,11 @@ public class GameModel {
     int scorePlayer1;
     int scorePlayer2;
 
+    public GameModel() {
+        scorePlayer1 = 0;
+        scorePlayer2 = 0;
+    }
+
     public void displayScores() {
         System.out.println("Scores:");
         System.out.println("Player 1: " + scorePlayer1);
